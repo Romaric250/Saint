@@ -4,12 +4,11 @@
 
 :root {
   --primary-color: #030712;
-  --secondary-color: #111827;
+  --secondary-color: #121213;
   --tertiary-color: #00030e;
   --quatenary-color: #88f0e5;
   --last-color: #15d3a2;
-  --text-color: #F9FAFB;
-
+  --text-color: #f9fafb;
 }
 
 * {
@@ -19,15 +18,13 @@
   font-family: "Proxima Nova", sans-serif;
 }
 
-
-
 button,
 input {
   outline: none;
   border: none;
 }
 
-#animated-text {
+/* #animated-text {
   overflow: hidden;
   border-right: 0.15em solid orange;
   animation: typing 3s steps(30, end), blink-caret 0.75s step-end infinite;
@@ -146,4 +143,4 @@ input {
     transform: translateX(0);
     opacity: 1;
   }
-}
+} */

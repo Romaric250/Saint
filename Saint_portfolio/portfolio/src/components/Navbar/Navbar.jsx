@@ -9,23 +9,22 @@ const NavbarMenue = () => {
       <div className="nav-links">
         <ul>
           <li>
-            <a href="#home">About</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a href="#home">Work</a>
+            <a href="#work">Work</a>
           </li>
           <li>
-            <a href="#home">Testimonial</a>
+            <a href="#testimonial">Testimonial</a>
           </li>
           <li>
-            <a href="#home">Contact</a>
+            <a href="#projects">Projects</a>
           </li>
           <li>
-            <a href="#home">Mode</a>
+            <a href="#footer">Contact</a>
           </li>
-          <li>
-            <button class="download">Download cv</button>
-          </li>
+          
+
         </ul>
       </div>
     </>
@@ -45,7 +44,7 @@ function Navbar() {
   });
   return (
     <div className="nav-container">
-      <div className="nav-logo">Logo here</div>
+      <div className="nav-logo">S.M</div>
       <div className="nav-container-wrapper">
         <NavbarMenue />
       </div>
@@ -65,6 +64,7 @@ function Navbar() {
           <div className="menu-container">
             <div className="menu-wrapper">
               <NavbarMenue />
+
             </div>
           </div>
         )}

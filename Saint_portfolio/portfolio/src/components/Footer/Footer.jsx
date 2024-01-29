@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import "./footer.css";
 
 function Footer() {
@@ -6,22 +7,57 @@ function Footer() {
     <div className="main-footer-wrapper">
       <div className="footer-wrapper ">
         <div className="button-wrapper">
-          <button className="about_me_button">Get in touch</button>
+          <motion.button
+            className="about_me_button"
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+          >
+            Get in touch
+          </motion.button>
         </div>
-        <div className="footer-content reveal fade-bottom">
-          <h1>
-            What’s next? Feel free to reach out to me if you're looking for{" "}
-            <br />a developer, have a query, or simply want to connect.
-          </h1>
-          <h2>Email: saint@gmail.com</h2>
-          <h3>+237 650 450 534</h3>
-          <h4>You may also find me on these platforms</h4>
-          <h4>facebook twitter linkedin</h4>
-        </div>
+        <motion.div
+          className="footer-content reveal fade-bottom"
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+        >
+          <motion.h1
+            initial={{ opacity: 0, y: -50 }}
+            id="footer"
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+          >
+            What’s next? Feel free to reach out to me. 
+          </motion.h1>
+          <motion.h2
+            initial={{ opacity: 0, y: -50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.4 }}
+          >
+           <a href="#">manyor.com@gmail.com
+</a>
+          </motion.h2>
+         
+          <motion.h4
+            initial={{ opacity: 0, y: -50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.8 }}
+          >
+            +237 670648098 
+
+          </motion.h4>
+          <motion.h4
+            initial={{ opacity: 0, y: -50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.8 }}
+          >
+           +237 682598972
+
+          </motion.h4>
+         
+        </motion.div>
       </div>
-      <div className="copy-right">
-        2023 | Designed and coded with ❤️️ Romaric Lonfonyuy
-      </div>
+      
     </div>
   );
 }

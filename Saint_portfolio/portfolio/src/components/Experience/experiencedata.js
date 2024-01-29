@@ -1,48 +1,28 @@
 const data = [
     {
         id: "1",
-        title: "Sr Frontend Developer",
+        title: "Project Manager",
         moreinfo: [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+           "At Alphazulu Advocates Cameroon chapter"
         ],
-        duration: "Nov 2021 - present",
+        duration: "Contract",
     },
     {
         id: "2",
-        title: "Sr Frontend Developer",
+        title: "Project Manger",
         moreinfo: [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          " At Youth empowerment and auto Employment Association ",
         ],
-        duration: "Nov 2021 - present",
+        duration: "2022 - present",
     },
     {
         id: "3",
-        title: "Sr Frontend Developer",
+        title: "President",
         moreinfo: [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+           " At the Knowledge Fountain Leadership Association"
         ],
-        duration: "Nov 2021 - present",
-    },
-
-    {
-        id: "4",
-        title: "Sr Frontend Developer",
-        moreinfo: [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        ],
-        duration: "Nov 2021 - present",
-    },
+        duration: "2020 - present",
+    }
 
 
 ];
